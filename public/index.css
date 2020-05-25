@@ -1,0 +1,205 @@
+h1{
+    font-family: 'Josefin Sans';
+    font-size: 5rem;
+}
+
+.mail{
+	font-size: 15px;
+}
+
+p{
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+}
+#mainnav .nav-link:hover{
+    color: red;
+}
+.nav-brand img{
+    height: 80px;
+}
+.carousel img{
+    height: 600px;
+    filter: blur(2px);
+}
+.carousel h1{
+    font-family: 'Poiret One';
+    font-size: 7rem;
+    font-weight: 700;
+    color: #ff0000;
+}
+.carousel h3{
+    font-family: 'Poiret One';
+    color: #e17c7c;
+}
+.navbar.scrolled{
+    background: rgb(255, 135, 135);
+    transition: background 900ms;
+  } 
+  #mainnav .nav-link{
+      color: #777777;
+  }
+.card{
+  display: inline-block;
+    width: 300px;
+    /*height: 300px;*/
+    margin: 10px;
+    /*padding: 20px;*/
+  }
+
+  .scrolling-wrapper {
+          overflow-x: scroll;
+          overflow-y: hidden;
+          /* white-space: nowrap; */
+        }
+
+  .between{
+    color: #eee;
+  }
+
+  .card p{
+      font-family: 'Josefin Sans';
+      font-weight: 500;
+  }
+  .card-title{
+      font-size: 1.7rem;
+      font-family: 'Josefin Sans';
+      white-space: pre-wrap;
+  }
+
+
+
+  .pro{
+    font-size: 1.2rem;
+    color: #777777;
+  }
+
+  #last img{
+        height: 110px;
+  }
+  #last{
+      background: url('images/end.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+  #last p{
+      color: white;
+      font-size: 15px;
+  }
+  #top1  {
+      height: 550px;
+      background-image: url('images/about.jpg');
+      background-size: cover;
+      background-position: center;
+      }
+    
+  #top1 h1{
+      color:red;
+      padding-top: 300px;
+      font-family: 'Poiret One';
+      font-weight: 700;
+  }
+  #top2{
+      height: 230px;
+  }
+  #topc  {
+    height: 550px;
+    background-image: url('images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    }
+    #topc h1{
+        color: red;
+        padding-top: 300px;
+        font-family: 'Poiret One';
+        font-weight: 700;
+    }
+    form{
+        font-family: 'Josefin Sans';
+        font-weight: 700;
+    }
+    .con span{
+        color: red;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .con1 span{
+        color: red;
+        
+    }
+    .icon{
+        color: rgb(255, 135, 135);
+    }
+    #misc h1{
+        font-size: 3rem;
+    }
+    #misc1{
+        background: url('images/screws-loose.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        
+    }
+    
+    @media only screen and (max-width: 950px) {
+        p{
+            
+            font-size: 24px;
+        }
+        .nav-brand img{
+            height: 70px;
+        }
+        #last p{
+            font-size: 15px;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        
+        
+        .card-text{
+            font-size: 1rem;
+        }
+        .carousel img{
+            height: 500px;
+            filter: blur(2px);
+        }
+        .carousel h1{
+            font-family: 'Poiret One';
+            font-size: 64px;
+            font-weight: 700;
+            color: #ff0000;
+        }
+        #mainnav .nav-link{
+            font-size: 20px;
+            margin: 3px;
+        }   
+        .scrolling-wrapper {
+          overflow-x: scroll;
+          overflow-y: hidden;
+          white-space: nowrap;
+        }
+        .card{
+            display: inline-block;
+            width: 200px;
+            /*height: 300px;*/
+            margin: 10px;
+            /*padding: 20px;*/
+             
+          }
+        .card h1{
+          padding: 20px;
+        }
+        h1{
+            font-size: 4rem;
+        }
+
+        .card-title{
+          margin: 0;
+            font-size: 1rem;
+            font-family: 'Josefin Sans';
+            white-space: pre-wrap;
+        }
+        .scrolling-wrapper {
+          -webkit-overflow-scrolling: touch;
+        }
+    }
