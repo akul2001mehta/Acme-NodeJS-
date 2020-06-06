@@ -84,8 +84,10 @@ app.post("/contact", function(req, res) {
 // 	res.send("Posting");
 // });
 
-
-
-app.listen(process.env.PORT, process.env.IP, function(){
-   console.log("The Acme Server Has Started!");
+app.listen(3000, function(){
+	console.log("Started");
 });
+
+// app.listen(process.env.PORT, process.env.IP, function(){
+//    console.log("The Acme Server Has Started!");
+// });
